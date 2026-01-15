@@ -18,6 +18,8 @@ import 'animateddefaulttextstyle/widget_animated_default_text_style.dart';
 import 'animatedicon/widget_animated_icon.dart';
 import 'animatedlist/widget_animated_list.dart';
 import 'animatedmodelbarrier/widget_animated_model_barrier.dart';
+import 'animatedopacity/widget_animated_opacity.dart';
+import 'animatedpadding/widget_animated_padding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WidgetAnimatedModelBarrier(),
+      home: WidgetAnimatedPadding(),
     );
   }
 }

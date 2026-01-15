@@ -16,9 +16,8 @@ class _WidgetAnimatedBuilderState extends State<WidgetAnimatedBuilder> with Tick
 
   @override
   void dispose() {
-    super.dispose();
-    // TODO: implement dispose
     _controller.dispose();
+    super.dispose();
   }
   @override
   Widget build(BuildContext context) {
