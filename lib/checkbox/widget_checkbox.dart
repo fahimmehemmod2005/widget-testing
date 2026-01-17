@@ -14,6 +14,7 @@ class _WidgetCheckboxState extends State<WidgetCheckbox> {
     return Scaffold(
       body: Center(
         child: Checkbox(
+          shape: CircleBorder(),
           value: _isChecked,
           activeColor: Colors.orange,
           tristate: true,

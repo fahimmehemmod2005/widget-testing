@@ -21,6 +21,13 @@ import 'animatedlist/widget_animated_list.dart';
 import 'animatedmodelbarrier/widget_animated_model_barrier.dart';
 import 'animatedopacity/widget_animated_opacity.dart';
 import 'animatedpadding/widget_animated_padding.dart';
+import 'animatedphysicalmodel/widget_animated_physical_model.dart';
+import 'animatedpositioned/widget_animated_positioned.dart';
+import 'animatedrotation/widget_animated_rotation.dart';
+import 'animatedsize/widget_animated_size.dart';
+import 'animatedswitcher/widget_animated_switcher.dart';
+import 'aspectratio/widget_aspect_ratio.dart';
+import 'autocomplete/widget_auto_complete.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +38,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WidgetRadioListTile(),
+      home: WidgetAutoComplete(),
     );
   }
 }
