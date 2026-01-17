@@ -5,6 +5,7 @@ import 'package:widget_testing/checkbox/widget_checkbox.dart';
 import 'package:widget_testing/checkbox/widget_checkbox_list_tile.dart';
 import 'package:widget_testing/chip/widget_chip.dart';
 import 'package:widget_testing/chip/widget_choice_chip.dart';
+import 'package:widget_testing/radiolisttile/widget_radio_list_tile.dart';
 import 'package:widget_testing/switch/custom_switch.dart';
 import 'package:widget_testing/switch/widget_switch.dart';
 import 'package:widget_testing/tabbar/widget_tab_bar.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WidgetAnimatedPadding(),
+      home: WidgetRadioListTile(),
     );
   }
 }
